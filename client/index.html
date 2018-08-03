@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>WebRTC Demo</title>
+</head>
+
+<body>
+  <h2>Your Username is:
+    <span id="usernameSpan" style="color: blue">...</span>
+    </span>
+  </h2>
+  <form>
+    <input id="usernameInput" type="text">
+    <button id="callBtn" disabled>Call</button>
+  </form>
+  <br>
+  <video id="localVideo" style="background-color: black" width="400" height="300" autoplay muted>
+  </video>
+  <video id="remoteVideo" style="background-color: black" width="640" height="480" autoplay>
+  </video>
+  <script src="./index.js"></script>
+</body>
+
+</html>
